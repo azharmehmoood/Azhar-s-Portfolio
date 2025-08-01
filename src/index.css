@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@theme {
+--color-dblue: #17153D;
+/* --color-gradient: rgb(10,31,88);
+background: linear-gradient(90deg, rgba(10,31,88,1) 22%, rgba(5,5,72,1) 46%, rgba(16,16,107,0.99781162464986) 70%); */
+
+}
+@layer utilities {
+    .from-custom-blue {
+      --tw-gradient-from: #0A1F58;
+      --tw-gradient-to: rgba(10, 31, 88, 0);
+    }
+    .via-custom-dark {
+      --tw-gradient-stops: var(--tw-gradient-from), #050548, var(--tw-gradient-to);
+    }
+    .to-custom-indigo {
+      --tw-gradient-to: #10106B;
+    }
+  }
+  
