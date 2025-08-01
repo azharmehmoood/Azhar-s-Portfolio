@@ -1,11 +1,10 @@
 import React from 'react'
-import myCertificate from '../assets/cer.jpg'
 import mydevsin from '../assets/devsin.jpeg'
 import mygeeky from '../assets/geeky.jpg'
 import mygoogle from '../assets/googlecerti.jpg'
 import myknowledge from '../assets/knowledge.jpeg'
 
-function Certifacte() {
+function Certifiacte() {
   return (
     <>
     <div className='px-10 py-10 md:px-20 md:py-20'>
@@ -32,7 +31,7 @@ function Certifacte() {
   )
 }
 
-export default Certifacte
+export default Certifiacte
 
 
 
